@@ -1,0 +1,149 @@
+html {
+    height:100%;
+}
+body {
+    font-family:Arial;
+    height:100%;
+    margin:0;
+}
+div {
+    height:100%;
+}
+
+.white {
+    color:white;
+}
+.img {
+    border-radius:50px;
+}
+
+/* Up */
+#Up {
+    color:white;
+    background-color:grey;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#UpSearch {
+    color:black;
+    background-color:lightgrey;
+    width:350px;
+    height:40px;
+    cursor:pointer;
+    border:none;
+    border-radius:8px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#UpNew {
+    margin-left:20px;
+    cursor:pointer;
+}
+
+/* Dialog */
+#FirstDialog {
+    color:black;
+    background-color:red;
+    width:150px;
+    height:100px;
+    cursor:pointer;
+    border-radius:20px;
+    display:inline-block;
+}
+#PerDialog {
+    color:black;
+    background-color:white;
+    height:80px;
+    display:flex;
+    align-items:center;
+    border:1px solid red;
+}
+.PerDialog {
+    margin-left:30px;
+}
+
+/* Details */
+#InText {
+    color:black;
+    background-color:white;
+    width:85%;
+    height:40px;
+    font-size:15px;
+    border:3px solid black;
+    border-radius:13px;
+    text-align:center;
+}
+#Send {
+    color:black;
+    background-color:white;
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    text-align:center;
+    border:2px solid black;
+    border-radius:10px;
+}
+#SendImg {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#Receiver {
+    color:black;
+    background-color:white;
+    width:100%;
+    height:50px;
+    font-size:25px;
+    border:2px solid red;
+}
+.Message {
+    color:black;
+    background-color:white;
+    width:200px;
+    height:50px auto;
+    border:2px solid black;
+    border-radius:10px;
+    margin-bottom:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.SendMess {
+    float:right;
+    text-align:right;
+    clear:both;
+}
+.ReceMess {
+    float:left;
+    text-align:left;
+    clear:both;
+}
+
+/* Column */
+#ColumnL {
+    color:black;
+    background-color:lightgray;
+    float:left;
+    width:35%;
+    height:100%;
+    text-align:center;
+}
+#ColumnR {
+    color:black;
+    background-image:url('Photo/Фон.jpg');
+    background-size:100%;
+    float:right;
+    width:65%;
+    height:100%;
+    text-align:center;
+}
+.ColumnUp {
+    text-align:center;
+}
+
+/* display:flex;
+justify-content:center;
+align-items:center; */
